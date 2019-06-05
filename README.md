@@ -1,2 +1,2 @@
 # roman-numeral-converter
-A simple HTML page for converting Arabic numerals to Roman numerals 
+A simple HTML page that uses javascript for converting Arabic numerals to Roman numerals 
