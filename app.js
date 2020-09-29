@@ -53,9 +53,11 @@ function convertToRoman(numeral) {
 			if (myItem > 0 && myItem < 4000) {
 				let roman = convertToRoman(myItem);
 				addPara.textContent = roman;
+				addPara.id = "yay";
 
 			} else {
-				addPara.textContent = 'Please submit a number 1 through 3999!';
-				selectedDiv.appendChild(addPara);
+				addPara.textContent = 'Enter a number 1 through 3999!';
+				addPara.id = "error";
+				//selectedDiv.appendChild(addPara);
 			}
 		}
